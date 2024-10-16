@@ -12,23 +12,20 @@ The dataset contains several health-related attributes like age, cholesterol lev
 
 # Workflow
 1. Data Loading: Load the dataset of news articles with their labels.
-2. Text Preprocessing:
    
-   -Convert text to lowercase.
+2. Data Preprocessing:
    
-   -Remove punctuation and special characters.
+   -Handle missing values.
    
-   -Tokenize the text and remove stopwords.
+   -Normalize features like cholesterol and blood pressure.
+   
+   -Encode categorical variables (e.g., gender).
 
-4. Feature Extraction:
-   
-   Use TF-IDF to transform the text data into numerical features.
-
-6. Model Building:
+3. Model Building:
    
    Implement Logistic Regression for classification.
 
-8. Evaluation:
+4. Model Evaluation:
    
    Test the model using the test set and evaluate using performance metrics.
 
